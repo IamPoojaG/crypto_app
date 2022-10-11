@@ -4,6 +4,7 @@ aside {
   background-color: var(--clr-lightgreyBackground);
   border-right: 0.5px solid rgb(196, 193, 193);
 }
+
 .sideBar_container {
   width: 100%;
   height: 100%;
@@ -11,11 +12,13 @@ aside {
   align-items: flex-start;
   padding: 2rem;
 }
+
 .top_container,
 .mid_container,
 .bottom_container {
   width: 100%;
 }
+
 .wallet_container {
   background-color: var(--clr-primary);
   color: white;
@@ -28,30 +31,36 @@ aside {
 .balance {
   font-size: 0.6rem;
 }
+
 .list_container {
   color: grey;
   width: 100%;
 }
+
 .list_container ul {
   list-style-type: none;
-  margin-bottom: 4rem;
+  margin-left: -2rem;
 }
+
 .list_container ul li {
   margin-bottom: 1rem;
   padding: 0.6rem 1rem;
   font-size: 0.9rem;
 }
+
 .list_container ul li:hover {
   background-color: white;
   border-radius: 8px;
   color: black;
   cursor: pointer;
 }
+
 .inner_bottom {
   background-color: var(--clr-primary);
   width: 100%;
   height: 12rem;
 }
+
 .btn {
   border-radius: 8px;
 }
