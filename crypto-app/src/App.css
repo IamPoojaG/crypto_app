@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Open+Sans:wght@300&display=swap');
+
+:root {
+  --clr-primary: #51459e;
+  --clr-orange: #f9896b;
+  --clr-blue: #0377fb;
+  --clr-yellow: #ffcc40;
+  --clr-lightOrange: #fac898;
+  --clr-green: #50dfb2;
+  --clr-lightgreyBackground: #f9f8fa;
+  font-size: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+}
